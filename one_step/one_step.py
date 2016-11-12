@@ -180,6 +180,7 @@ def simulate(state, action):
                         queen_flag = True
 
             state_new["Score"] = score
+            state_new["Foul"] = foul
             # print "Coins Remaining: ", len(state_new["Black_Locations"]), "B
             # ", len(state_new["White_Locations"]), "W ",
             # len(state_new["Red_Location"]), "R"
